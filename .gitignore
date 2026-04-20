@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+
+# Data (large files — push to HuggingFace Datasets instead)
+data/raw/
+data/filtered.jsonl
+data/cost_log.jsonl
+data/test_concepts.jsonl
+
+# Keep seed concepts and notes
+!data/seed_concepts.md
+!data/raw/.gitkeep
+
+# Model checkpoints
+checkpoints/
+
+# Eval results
+results/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Weights & Biases
+wandb/
